@@ -163,7 +163,8 @@ echo "Creating getMessage.js script..."
 cat <<EOL > scripts/getMessage.js
 const hre = require("hardhat");
 const { encryptDataField, decryptNodeResponse } = require("@swisstronik/utils");
-const fs = require("fs");
+const fs = require("fs");hash
+⁷
 
 const sendShieldedQuery = async (provider, destination, data) => {
   const rpclink = hre.network.config.url;
